@@ -1,0 +1,103 @@
+<p>settings works!</p>
+
+<button mat-raised-button color="#fff" (click)="sortEmail()">
+  sort by email
+</button>
+<button mat-raised-button color="#fff" (click)="sortId()">sort by id</button>
+<button mat-raised-button color="#fff" (click)="sortRole()">
+  sort by role
+</button>
+<button mat-raised-button color="warn" (click)="Reset()">
+   Reset
+  </button>
+
+<div *ngIf="isEmailDisplay" style="margin-top: 20px">
+  <select [(ngModel)]="selectedId" class="select" (change)="getElement()">
+    <option *ngFor="let settings of settingData" [value]="settings.id">
+      {{ settings.email }}
+    </option>
+  </select>
+  <h1>selected id is :{{selectedId}}</h1>
+  <table border="1">
+    <tr>
+        <th>Name</th>
+        <th>standard</th>
+        <th>Role</th>
+        <th>Company</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>sales</th>
+    </tr>
+    <tr *ngFor="let settings of settingData">
+        <td>{{settings.author}}</td>
+        <td>{{settings.standard}}</td>
+        <td>{{settings.role}}</td>
+        <td>{{settings.company}}</td>
+        <td>{{settings.email}}</td>
+        <td>{{settings.phone}}</td>
+        <td>{{settings.sale}}</td>
+    </tr>
+  </table>
+
+
+</div>
+<div *ngIf="isIdDisplay" style="margin-top: 20px">
+    <select [(ngModel)]="selectedId" class="select" (change)="getElement1()">
+      <option *ngFor="let settings of settingData" [value]="settings.id">
+        {{ settings.id }}
+      </option>
+    </select>
+    <h1>selected id is :{{selectedId}}</h1>
+    <table border="1">
+      <tr>
+          <th>Name</th>
+          <th>standard</th>
+          <th>Role</th>
+          <th>Company</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>sales</th>
+      </tr>
+      <tr *ngFor="let settings of settingData">
+          <td>{{settings.author}}</td>
+          <td>{{settings.standard}}</td>
+          <td>{{settings.role}}</td>
+          <td>{{settings.company}}</td>
+          <td>{{settings.email}}</td>
+          <td>{{settings.phone}}</td>
+          <td>{{settings.sale}}</td>
+      </tr>
+    </table>
+  
+  
+  </div>
+  <div *ngIf="isRoleDisplay" style="margin-top: 20px">
+    <select [(ngModel)]="selectedId" class="select" (change)="getElement2()">
+      <option *ngFor="let settings of settingData" [value]="settings.id">
+        {{ settings.role }}
+      </option>
+    </select>
+    <h1>selected id is :{{selectedId}}</h1>
+    <table border="1">
+      <tr>
+          <th>Name</th>
+          <th>standard</th>
+          <th>Role</th>
+          <th>Company</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>sales</th>
+      </tr>
+      <tr *ngFor="let settings of settingData">
+          <td>{{settings.author}}</td>
+          <td>{{settings.standard}}</td>
+          <td>{{settings.role}}</td>
+          <td>{{settings.company}}</td>
+          <td>{{settings.email}}</td>
+          <td>{{settings.phone}}</td>
+          <td>{{settings.sale}}</td>
+      </tr>
+    </table>
+  
+  
+  </div>

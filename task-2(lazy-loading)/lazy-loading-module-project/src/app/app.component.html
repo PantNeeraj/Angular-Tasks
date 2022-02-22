@@ -1,0 +1,20 @@
+
+
+<mat-drawer-container class="example-container">
+    <mat-drawer mode="side" opened>
+        <img src="../assets/images/Frame.png" alt="logo">
+        <div class="buttons">
+        <button mat-raised-button color="primary" (click)="changeRoute('users')">users</button>
+        <button mat-raised-button color="primary"(click)="changeRoute('admin')">admin</button>
+        <button mat-raised-button color="primary" (click)="changeRoute('dashboard')">dashboard</button>
+        <button mat-raised-button color="primary" (click)="changeRoute('settings')">settings</button>
+        <button mat-raised-button color="primary" (click)="changeRoute('about')">about</button>
+        
+        
+        </div>
+
+    </mat-drawer>
+    <mat-drawer-content><router-outlet></router-outlet></mat-drawer-content>
+  </mat-drawer-container>
+
+

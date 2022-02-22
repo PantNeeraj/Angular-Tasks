@@ -1,0 +1,210 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "pradip@gmail.com",
+      "phone": 1234567890,
+      "standard": "mid",
+      "author": "pradip",
+      "role": "Front end developer",
+      "company": "abc ltd",
+      "sale":"100"
+    },
+    {
+      "id": 2,
+      "email": "rupesh@gmail.com",
+      "phone": 6781234567,
+      "standard": "advance",
+      "author": "Rupesh",
+      "role": "back end developer",
+      "company": "xyz ltd",
+      "sale":"100"
+    },
+    {
+      "id": 3,
+      "email": "Neeraj@gmail.com",
+      "phone": 987654321,
+      "standard": "expert",
+      "author": "Neeraj",
+      "role": "devops developer",
+      "company": "fgh ltd",
+      "sale":"100"
+    },{
+        "id": 4,
+        "email": "Neer@gmail.com",
+        "phone": 98723544321,
+        "standard": "expert",
+        "author": "Neer",
+        "role": "devops developer",
+        "company": "fgh ltd",
+        "sale":"500"
+      },{
+        "id": 5,
+        "email": "Rakesh@gmail.com",
+        "phone": 876654321,
+        "standard": "mid",
+        "author": "Rakesh",
+        "role": "Front end developer",
+        "company": "abc ltd",
+        "sale":"200"
+      },{
+        "id": 6,
+        "email": "Amit@gmail.com",
+        "phone": 9874689321,
+        "standard": "advance",
+        "author": "Amit",
+        "role": "devops developer",
+        "company": "fgh ltd",
+        "sale":"300"
+      }
+  ],
+  "dashboard": [
+    {
+      "id": 1,
+      "email": "pradip@gmail.com",
+      "phone": 1234567890,
+      "standard": "mid",
+      "author": "pradip",
+      "role": "Front end developer",
+      "company": "abc ltd",
+      "sale": 100
+    },
+    {
+      "id": 2,
+      "email": "rupesh@gmail.com",
+      "phone": 6781234567,
+      "standard": "advance",
+      "author": "Rupesh",
+      "role": "back end developer",
+      "company": "xyz ltd",
+      "sale": 100
+    },
+    {
+      "id": 3,
+      "email": "Neeraj@gmail.com",
+      "phone": 987654321,
+      "standard": "expert",
+      "author": "Neeraj",
+      "role": "devops developer",
+      "company": "fgh ltd",
+      "sale": 300    },
+    {
+      "id": 4,
+      "email": "Neer@gmail.com",
+      "phone": 98723544321,
+      "standard": "expert",
+      "author": "Neer",
+      "role": "devops developer",
+      "company": "fgh ltd",
+      "sale": 400
+    },
+    {
+      "id": 5,
+      "email": "Rakesh@gmail.com",
+      "phone": 876654321,
+      "standard": "mid",
+      "author": "Rakesh",
+      "role": "Front end developer",
+      "company": "abc ltd",
+      "sale": 200
+    },
+    {
+      "id": 6,
+      "email": "Amit@gmail.com",
+      "phone": 9874689321,
+      "standard": "advance",
+      "author": "Amit",
+      "role": "devops developer",
+      "company": "fgh ltd",
+      "sale": 300
+    }
+  
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "email": "pradip@gmail.com",
+      "phone": 1234567890,
+      "standard": "mid",
+      "author": "pradip",
+      "role": "front end developer",
+      "company": "abc ltd"
+    },
+    {
+      "id": 2,
+      "email": "rupesh@gmail.com",
+      "phone": 6781234567,
+      "standard": "advance",
+      "author": "Rupesh",
+      "role": "back end developer",
+      "company": "xyz ltd"
+    },
+    {
+      "id": 3,
+      "email": "Neeraj@gmail.com",
+      "phone": 987654321,
+      "standard": "expert",
+      "author": "Neeraj",
+      "role": "devops developer",
+      "company": "fgh ltd"
+    }
+  ],
+  "settings": [
+    {
+      "id": 1,
+      "email": "pradip@gmail.com",
+      "phone": 1234567890,
+      "standard": "mid",
+      "author": "pradip",
+      "role": "front end developer",
+      "company": "abc ltd"
+    },
+    {
+      "id": 2,
+      "email": "rupesh@gmail.com",
+      "phone": 6781234567,
+      "standard": "advance",
+      "author": "Rupesh",
+      "role": "back end developer",
+      "company": "xyz ltd"
+    },
+    {
+      "id": 3,
+      "email": "Neeraj@gmail.com",
+      "phone": 987654321,
+      "standard": "expert",
+      "author": "Neeraj",
+      "role": "devops developer",
+      "company": "fgh ltd"
+    }
+  ],
+  "about": [
+    {
+      "id": 1,
+      "email": "pradip@gmail.com",
+      "phone": 1234567890,
+      "standard": "mid",
+      "author": "pradip",
+      "role": "front end developer",
+      "company": "abc ltd"
+    },
+    {
+      "id": 2,
+      "email": "rupesh@gmail.com",
+      "phone": 6781234567,
+      "standard": "advance",
+      "author": "Rupesh",
+      "role": "back end developer",
+      "company": "xyz ltd"
+    },
+    {
+      "id": 3,
+      "email": "Neeraj@gmail.com",
+      "phone": 987654321,
+      "standard": "expert",
+      "author": "Neeraj",
+      "role": "devops developer",
+      "company": "fgh ltd"
+    }
+  ]
+}

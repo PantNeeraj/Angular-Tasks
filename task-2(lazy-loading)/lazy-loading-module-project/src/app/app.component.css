@@ -1,0 +1,30 @@
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    
+}
+.buttons button {
+    text-transform: uppercase;
+    width: 100%;
+    margin-top: 30px;
+  
+}
+.example-container {
+    width: 100%;
+    height: 100vh;
+ 
+    border: 1px solid #555;
+  }
+  mat-drawer{
+      width: 20%;
+      padding: 0 20px;
+  }
+  mat-drawer-content{
+      padding: 30px;
+      max-width: 100%;
+  }
+  mat-drawer img{
+      max-width: 100%;
+      margin-top: 20px;
+  }

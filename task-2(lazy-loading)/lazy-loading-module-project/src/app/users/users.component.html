@@ -1,0 +1,30 @@
+<p>users works!</p>
+
+<div >
+
+    
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>standard</th>
+            <th>Role</th>
+            <th>Company</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>sales</th>
+        </tr>
+        <tr *ngFor="let user of userData">
+            <td>{{user.author}}</td>
+            <td>{{user.standard}}</td>
+            <td>{{user.role}}</td>
+            <td>{{user.company}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.phone}}</td>
+            <td>{{user.sale}}</td>
+        </tr>
+       
+    </table>
+
+</div>
+ 
