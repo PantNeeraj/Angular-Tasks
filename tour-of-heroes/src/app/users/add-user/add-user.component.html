@@ -1,0 +1,37 @@
+<mat-card>
+    <h1>Creating New user :-</h1>
+    <hr>    
+<form [formGroup]="addUserForm" (submit)="createUser()">
+    <p>
+        <mat-form-field appearance="legacy">
+          <mat-label>username</mat-label>
+          <input matInput placeholder="username" formControlName="userName">
+          <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+          <mat-hint>Hint</mat-hint>
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="legacy">
+          <mat-label>Email</mat-label>
+          <input matInput placeholder="Email" formControlName="email">
+          <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+          <mat-hint>Hint</mat-hint>
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="legacy">
+          <mat-label>phone</mat-label>
+          <input matInput placeholder="phone no" formControlName="phone">
+          <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+          <mat-hint>Hint</mat-hint>
+        </mat-form-field>
+      </p>
+      <br>
+      <br>
+      <p>
+        <button mat-raised-button color="primary">submit</button>
+      </p>
+
+
+</form>
+</mat-card>

@@ -1,0 +1,6 @@
+<h1 *ngIf="listusers">Displaying total {{listusers.length}} users</h1>
+<mat-list>
+    <mat-list-item *ngFor="let user of listusers"> 
+ <div class="username">{{user.name}}</div><br><div class="username">{{user.email}}</div> |<a class="action-link" [routerLink]="['view',user.id]"  >View</a>| <a class="action-link" [routerLink]="['edit',user.id]"  >Edit</a> |<a class="action-link" [routerLink]="['delete',user.id]" >Delete</a> 
+   </mat-list-item>
+</mat-list>
